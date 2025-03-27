@@ -1,0 +1,960 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, beige 33.33%,  rgb(158, 27, 50));
+}
+header {
+    background-color:beige;
+    color: rgb(158, 27, 50);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    height: 150px;
+    margin-right: 75px;
+}
+nav {
+    background-color: rgb(158, 27, 50);
+    padding: 10px;
+}
+nav a {
+    color: beige;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.yes{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh; 
+}
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;              
+    
+}
+.white {
+    background-color: white;
+    width: 40%;
+}
+.maroon {
+    background-color: #8d1b3d;
+    width: 60%;
+    position: relative;
+}
+.zigzag {
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        white 0px, white 5px,
+        #8d1b3d 5px, #8d1b3d 10px
+    );
+}
+
+.loco{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+}
+.bandera {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(yellow 50%, blue 50%, blue 75%, red 75%);
+}
+.pas{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+}
+
+.sal {
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+.franja {
+    flex: 1;
+    height: 100%;
+}
+.verde {
+    background-color: green;
+}
+.amarilla {
+    background-color: yellow;
+}
+.roja{
+    background-color: #D30000;
+}
+.loda{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 35vh;
+    
+}
+.paisesb{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+} 
+.franja-rojasl{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
+.franja-blan{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+}
+.franja-azulak{
+    background-color:blue;
+    height: 50%;
+    width: 100%;
+}
+.jupi{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.jasa {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border: 2px solid black;
+}
+.horizontal, .vertical {
+    position: absolute;
+    background-color: red;
+}
+.horizontal {
+    width: 100%;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.vertical {
+    width: 40px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aña{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.kal {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.franja-verdef{
+    background-color: green;
+    height: 40%;
+    width: 100%;
+}
+.franja-blanño{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+}
+.franja-rojold{
+    background-color:red;
+    height: 40%;
+    width: 100%;
+}
+.last{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.shas {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background: red;
+}
+
+.blue-box {
+    width: 40%;
+    height: 50%;
+    background: navy;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.stripe {
+    width: 100%;
+    height: 14.3%;
+    background: white;
+    position: absolute;
+}
+.dert{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.xad {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.franja-blanca {
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+.franja-verde {
+    background-color: green;
+    height: 50%;
+    width: 100%;
+}
+.taki{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.nene{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.franja-azu{
+    background-color: rgba(59, 208, 235, 0.815);
+    height: 50%;
+    width: 100%;
+}
+.franja-blan{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+.conmi{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.gof {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #006c35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.sword {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+.sword::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 3px;
+    background-color: white;
+    top: -2px;
+}
+.dowt{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+
+.ldf {
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.franja-verd {
+    background-color: green;
+    width: 200%;
+    height: 100%;
+}
+.franja-blanc {
+    background-color: white;
+    width: 200%;
+    height: 100%;
+}
+.franja-roj{
+    background-color: #D30000;
+    width: 200%;
+    height: 100%;
+}
+.lort{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.kaja {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.franja-blal {
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+.franja-vere {
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
+.dowlt{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+
+.lmdf {
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.franja-azula {
+    background-color: blue;
+    width: 200%;
+    height: 100%;
+}
+.franja-blanla {
+    background-color: white;
+    width: 200%;
+    height: 100%;
+}
+.franja-rojop{
+    background-color: #D30000;
+    width: 200%;
+    height: 100%;
+}
+.gasta{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.gafl{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: blue;
+}
+.polo{
+    position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: white;
+}
+
+.jupiter{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.jasalañ {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    border: 2px solid black;
+}
+.horizonta-bar {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    transform: translateY(-50%);
+}
+.vertica-bar {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+}
+.jamla{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.casac{
+    width: 300px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.crescent {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+}
+.stare {
+    position: absolute;
+    right: 18px;
+    color: red;
+    font-size: 24px;
+}
+.jasda{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.espa{
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+
+.rojosh{
+    
+    background-color: red;
+
+}
+.amarillo{
+   
+    background-color: yellow;
+
+}
+.kaka{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.costarica{
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+
+.azulfas{
+    background-color: blue;
+}
+
+.blancaga{
+    background-color: white;
+}
+
+.rojoloc{
+    background-color: red;
+}
+.solos{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.alemania{
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+
+.negroba{
+    
+    background-color: black;
+
+}
+.rojopacion{
+   
+    background-color: red;
+
+}
+
+.amarillochola{
+   
+    background-color: yellow;
+
+}
+.fasl{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.japon{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.circrojo{
+    content: "";
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    background-color: #C70025;
+    top: 20%;
+    left: 30%;
+    border-radius: 50%;
+}
+.begig{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.belgium{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.franja {
+    flex: 1;
+    height: 100%;
+}
+.nesa {
+    background-color: black;
+}
+.ameril {
+    background-color: yellow;
+}
+.redas{
+    background-color: red;
+}
+
+.vasd{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.canada{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.franja {
+    flex: 1;
+    height: 100%;
+}
+.res {
+    background-color: red;
+}
+.bala {
+    background-color: white;
+}
+
+
+.bazq{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.mar2{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.yosy{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.croat1{
+    display: grid;
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.rojo{
+    background-color: red;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.azul{
+    background-color: blue;
+}
+.haste{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.perrode {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #009739;
+}
+.diamond {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC29;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #002776;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.linea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 55px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+.dista{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.servia{
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+.rojasca{
+    background-color: red;
+}
+.azulprit{
+    background-color: blue;
+}
+.blancalot{
+    background-color: white; 
+}
+.naste{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.suiza{
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+.flagas{
+    background-color: red;
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.flagas::before,
+.flagas::after{
+    content:"";
+    position: absolute;
+}
+.flagas::before{
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20px;
+    height: 100%;
+}
+.flagas::after{
+    background-color: white;
+    top: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 20px;
+}
+.gotis{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.bands {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+}
+.verdelos {
+    background-color: #007a5e;
+    width: 33.33%;
+}
+.rojoña {
+    background-color: #ce1126;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.amarillomn {
+    background-color: #fcd116;
+    width: 33.33%;
+}
+.estrellal {
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hast{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.flagest {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+.greenis {
+    width: 40%;
+    background-color: green;
+}
+.redesa {
+    width: 60%;
+    background-color: red;
+}
+.emblemc {
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.gasre{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.ghana{
+    background-color: #cccccc;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+.gan1{
+    background-color: green;
+    height: 33.33%;
+    width: 300px;
+}
+.gan2{
+    background-color: yellow;
+    height: 33.33%;
+    width: 300px;
+}
+.gan3{
+    background-color: red;
+    height: 33.33%;
+    width: 300px;
+}
+.nabs{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.uruguay{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.uru1{
+    background-color: white;
+    width: 100%;
+    height: 25px;
+}
+.uru2{
+    background-color: aqua;
+    width: 100%;
+    height: 25px;
+}
+.uru3{
+    background-color: white;
+    width: 100%;
+    height: 25px;
+}
+.uru4{
+    background-color: aqua;
+    width: 100%;
+    height: 25px;
+}
+.uru5{
+    background-color: white;
+    width: 100%;
+    height: 25px;
+}
+.uru6{
+    background-color: aqua;
+    width: 100%;
+    height: 25px;
+}
+.yastu{
+    display: flex;              
+    justify-content: center;
+    align-items: center;        
+    height: 25vh;
+}
+.flagois {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+}
+.taeguk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom, red 50%, blue 50%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+.trigram {
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+}
+.trigram-1 { top: 20px; left: 30px; transform: rotate(0deg); }
+.trigram-1::before, .trigram-1::after,
+.trigram-2::before, .trigram-2::after,
+.trigram-4::before, .trigram-4::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    margin-top: 12px;
+}
+.trigram-1::after { margin-top: 24px; }
+
+.trigram-2 { top: 20px; right: 30px; transform: rotate(0deg); }
+.trigram-2::after { background: none; }
+
+.trigram-3 { bottom: 20px; left: 30px; transform: rotate(0deg); }
+.trigram-3::before, .trigram-3::after { 
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    margin-top: 12px;
+}
+.trigram-3::after { margin-top: 24px; }
+
+.trigram-4 { bottom: 20px; right: 30px; transform: rotate(0deg); }
+.trigram-4::before { background: none; }
